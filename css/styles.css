@@ -35,17 +35,6 @@ label {
 }
 
 
-/* Add a gutter to Pure's Columns */
-
-.pure-g {
-    margin: 0 -1em;
-}
-
-.pure-g>div {
-    padding: 0 1em;
-}
-
-
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need

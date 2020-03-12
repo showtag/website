@@ -10,9 +10,8 @@
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/roles.js"></script>
-    <script src="js/navigation.js"></script>
+
+
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
@@ -37,15 +36,32 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed main-menu">
-            <a class="pure-menu-heading" href="">Showtag Enabled</a>
+    <!-- Top navigation -->
+    <header class="main-header">
 
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="showtagenabled.com" class="pure-button pure-button-primary">Sign up</a></li>
-            </ul>
+        <div class="row">
+            <a class="logo" href="#">
+                <img class="showtag-logo" src="img/showtag-logo.png"></a>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="pure-menu-item pure-menu-selected">How it works</li>
+                    <li class="pure-menu-item pure-menu-selected">Demos</li>
+                    <li class="pure-menu-item pure-menu-selected">Pricing</li>
+                    <li class="pure-menu-item pure-menu-selected">About us</li>
+                    <li class="pure-menu-item"><a href="showtagenabled.com" class="pure-button pure-button-primary">Sign up</a></li>
+                </ul>
+            </nav>
+
         </div>
-    </div>
+
+    </header>
 
     <div class="splash-container">
         <div class="splash">
@@ -166,9 +182,10 @@
 
         </div>
 
-
-
-
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/roles.js"></script>
+    <script src="js/navigation.js"></script>
 </body>
 
 </html>

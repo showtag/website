@@ -29,7 +29,7 @@
     }
     
     .showtag-logo {
-        width: 140%;
+        width: 100%;
     }
     
     .l-box {
@@ -226,6 +226,12 @@
         padding: 5px;
         margin: 10px;
     }
+
+    #learn-more {
+        background: transparent;
+        border:2px solid #c2672e;
+        color:black;
+    }
     
     .button-users-in-mind {
         margin-top: 30px;
@@ -276,7 +282,7 @@
         transition: all 0.3s;
         opacity: 0;
         top: -100px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         font-family: "Montserrat", sans-serif;
     }
 
@@ -285,7 +291,6 @@
         width: 100%;
         margin: 0 auto;
         position: relative;
-        margin-bottom: 2%;
         padding: 0 0 0 10px;
     }
 
@@ -314,7 +319,7 @@
     .sticky {
         opacity: 1;
         top: 0px;
-        background-color: rgba(5, 7, 6, 0.6);
+        background-color: rgba(5, 7, 6, 0.9);
         color: white;
     }
     
@@ -410,7 +415,7 @@
     @media (min-width: 48em) {
         /* Increase the body font size */
         body {
-            font-size: 16px;
+            font-size: 14px;
         }
         /* Align the menu header to the left, but float the
     menu items to the right. */
@@ -438,18 +443,16 @@
     
     @media (min-width: 78em) {
         .splash-head {
-            font-size: 300%;
+            font-size: 200%;
         }
         content-head {
-            font-size: 300%;
+            font-size: 100%;
         }
-        body {
-            font-size: 150%;
-        }
+
         .pure-button {
-            padding: 20px;
+            padding: 10px;
             min-width: fit-content;
-            width: 300px;
+            width: 150px;
             max-width: 300px;
         }
     }    

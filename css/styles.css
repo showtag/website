@@ -67,13 +67,7 @@
         border-radius: 5px;
     }
     
-    a.pure-button-primary {
-        background: #c2672e;
-        color: white;
-        border-radius: 5px;
-        font-size: 120%;
-    }
-    
+   
     .pure-menu-item {
         padding: 0 15px 0 15px;
     }
@@ -196,6 +190,33 @@
         bottom: 0;
         width: 100%;
     }
+
+    /*
+    Primary button
+    */
+    .primary-button {
+        background: #c2672e;
+        border:2px solid #c2672e;
+        color: white;
+        transition-duration: 0.2s;
+    }
+
+    /*
+    Secondary button
+    */
+
+    .secondary-button {
+        background: transparent;
+        border:2px solid #c2672e;
+        color:black;
+        transition-duration: 0.4s;
+    }
+
+    .secondary-button:hover {
+        background: #c2672e;
+        color: white;
+    }
+
     /*************
     Other classes
     **************/
@@ -227,11 +248,6 @@
         margin: 10px;
     }
 
-    #learn-more {
-        background: transparent;
-        border:2px solid #c2672e;
-        color:black;
-    }
     
     .button-users-in-mind {
         margin-top: 30px;
@@ -367,6 +383,63 @@
         background: #444343;
         display: block;
     }
+
+
+    /* 
+    Subscribe form
+    */
+
+    .pure-form input[type] {
+        margin-bottom:0;
+        padding:10px;
+    }
+
+    .subscribe-form {
+        background-color: #374753;
+        color:white;
+    }
+
+    .subscribe-form h2 {
+        color:white;
+        text-align: center;
+    }
+
+    #subscribe {
+        display: flex;    }
+
+    .submit-form {
+        height:40px;    }
+
+    #email {
+        flex: 1;
+        position: relative;
+        height: 100%;
+        padding:10px;
+    }
+
+    #subscribe-button {
+        padding:0 10px 0 10px;
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     @media only screen and (max-width: 766px) {

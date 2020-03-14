@@ -1,0 +1,35 @@
+/* Skipping the header*/
+.content-wrapper {
+    top:15%;
+}
+
+.team {
+    background-color: #344853;
+    color: #fff;
+}
+
+.team h2 {
+    color: #fff;
+}
+
+.team h3, .team h4{
+    color: white;
+    margin:0;
+}
+
+
+
+.person {
+    margin: 2em 0;
+}
+
+.person img {
+    border-radius: 50%;
+    width:50%;
+    margin: 0 0 10px 0;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

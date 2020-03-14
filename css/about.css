@@ -17,7 +17,9 @@
     margin:0;
 }
 
-
+.adjust-width {
+    width: 70%;
+}
 
 .person {
     margin: 2em 0;
@@ -33,3 +35,49 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
+.position {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+#position-description {
+    padding: 0;
+    margin: 0;
+}
+
+.position h2
+ {
+    text-transform: uppercase;
+    color: #344853;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.position h3 {
+    text-align: left;
+}
+
+#position-description p {
+    margin: 0 auto;
+    text-align: left;
+    width:100%;
+}
+
+#position-description ul {
+    text-align: left;
+}
+
+p span {
+    display: block;
+}
+
+#apply-now-button {
+    margin-top: 1em;
+}
+
+ul li {
+    list-style-type: circle;
+  }

@@ -431,6 +431,24 @@
     }
 
 
+    /*
+    Contact us form
+    */
+
+    .contact-us-form {
+        position: relative;
+    }
+
+    .social-networks {
+        position: absolute;
+        text-align: right;
+    }
+
+    .social-icons {
+        width: 3%;
+        margin: 2%
+    }
+
 
 
 

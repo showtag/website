@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
 /* Skipping the header*/
 .content-wrapper {
-    top:15%;
+    top:10%;
+    font-family: 'Open Sans', sans-serif;
+}
+ body {
+    font-family: 'Open Sans', sans-serif;  
+ }
+
+p#history {
+    text-align: left;
 }
 
 .team {
     background-color: #344853;
     color: #fff;
+}
+
+.team-content {
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .team h2 {
@@ -27,7 +45,7 @@
 
 .person img {
     border-radius: 50%;
-    width:50%;
+    width:60%;
     margin: 0 0 10px 0;
 }
 
@@ -74,8 +92,9 @@ p span {
     display: block;
 }
 
-#apply-now-button {
+#hire-button {
     margin-top: 1em;
+    color: #fff;
 }
 
 ul li {

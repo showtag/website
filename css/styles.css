@@ -9,7 +9,12 @@
     body {
         line-height: 1.7em;
         color: black;
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        /* Set your content font stack here: */
         font-family: 'Open Sans', sans-serif;
     }
     

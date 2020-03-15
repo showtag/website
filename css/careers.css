@@ -6,12 +6,9 @@
 
 /* Skipping the header*/
 .content-wrapper {
-    top:10%;
+    position: relative;
+    margin-top:5%;
     font-family: 'Open Sans', sans-serif;
-}
-
-.adjust-width {
-    width: 70%;
 }
 
 .position {
@@ -24,8 +21,7 @@
     margin: 0;
 }
 
-.position h2
- {
+.position h2  {
     text-transform: uppercase;
     color: #344853;
     font-weight: 100;
@@ -94,6 +90,9 @@ ul li {
     text-align: right;
 }
 
-.job-location {
 
+@media only screen and (max-width: 766px) {
+    .adjust-width {
+        width:95%;
+    }
 }

@@ -478,14 +478,16 @@
     }
 
     .social-networks {
-        position: absolute;
         text-align: right;
     }
 
-    .social-icons {
-        min-width: 20px;
-        width: 5%;
-        padding: 0 5px 0 5px;
+    .social-networks a:active,
+    .social-networks a:visited {
+        color: black;
+    }
+
+    .social {
+        margin-left: 10px;
     }
 
     /*Footer-line*/

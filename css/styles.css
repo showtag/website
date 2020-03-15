@@ -59,6 +59,7 @@
 
     .l-box-lrg#contact {
         padding: 3em;
+        padding-left: 0;
     }
     
     .is-center {

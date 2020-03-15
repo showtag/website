@@ -1,0 +1,66 @@
+.careers-banner {
+    width:70%;
+    background-color: tan;
+}
+
+/* Skipping the header*/
+.content-wrapper {
+    top:10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.adjust-width {
+    width: 70%;
+}
+
+.position {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+#position-description {
+    padding: 0;
+    margin: 0;
+}
+
+.position h2
+ {
+    text-transform: uppercase;
+    color: #344853;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.position h3 {
+    text-align: left;
+}
+
+#position-description p {
+    margin: 0 auto;
+    text-align: left;
+    width:100%;
+}
+
+#position-description ul {
+    text-align: left;
+}
+
+p span {
+    display: block;
+}
+
+#hire-button {
+    margin-top: 1em;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+#apply-now-button {
+    margin-top: 1em;
+}
+

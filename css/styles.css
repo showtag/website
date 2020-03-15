@@ -108,7 +108,6 @@
     
     .home-menu .pure-menu-heading {
         color: white;
-        font-weight: 400;
         font-size: 120%;
     }
     
@@ -155,7 +154,6 @@
         font-size: 20px;
         font-weight: bold;
         color: white;
-        font-weight: 100;
         line-height: 1em;
         font-family: 'Raleway', sans-serif;
     }
@@ -179,7 +177,6 @@
     }
     
     .content-head {
-        font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 0.1em;
         margin: 2em 0 1em;

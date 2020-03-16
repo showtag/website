@@ -15,6 +15,9 @@
     margin: 0 auto;
     margin-bottom: 3em;
 }
+.job-location {
+    text-align: left;
+}
 
 #position-description {
     padding: 0;
@@ -80,6 +83,38 @@ ul li {
 
 .job-description {
     display: none;
+    padding: 10px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.job-description p {
+    margin: 0;
+    padding: 0;
+}
+
+.job-description h3 {
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.job-description h3:last-of-type {
+    margin-top: 10px;
+}
+
+.job-desc-general,
+.job-requirements,
+.apply-button {
+    padding: 5px;
+}
+
+.apply-button {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+button#job-apply-button {
+    color:white;
 }
 
 .job-position {
@@ -99,7 +134,7 @@ ul li {
 }
 
 @media only screen and (max-width: 766px) {
-    .adjust-width {
-        width:95%;
+    .job-box .adjust-width {
+        width:100%;
     }
 }

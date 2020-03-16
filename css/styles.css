@@ -487,7 +487,7 @@
     }
 
     .social {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     /*Footer-line*/
@@ -592,6 +592,10 @@
         }
         .showtag-logo {
             width: 95%;
+        }
+
+        .contact-us-form {
+            margin: 0 0 0 10px;
         }
     }
 

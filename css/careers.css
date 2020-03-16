@@ -1,13 +1,16 @@
 .careers-banner {
     background-color: tan;
-    width:100%;
-    margin:0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
+
 /* Skipping the header*/
+
 .content-wrapper {
-    position: relative;
-    margin-top:5%;
+    position: absolute;
+    width: 100%;
+    top: 15%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,6 +18,7 @@
     margin: 0 auto;
     margin-bottom: 3em;
 }
+
 .job-location {
     text-align: left;
 }
@@ -24,7 +28,7 @@
     margin: 0;
 }
 
-.position h2  {
+.position h2 {
     text-transform: uppercase;
     color: #344853;
     font-weight: 100;
@@ -39,7 +43,7 @@
 #position-description p {
     margin: 0 auto;
     text-align: left;
-    width:100%;
+    width: 100%;
 }
 
 #position-description ul {
@@ -67,10 +71,10 @@ ul li {
     margin: 0 auto;
 }
 
-.job-main{
+.job-main {
     background-color: #344853;
-    color:#fff;
-    padding:1em;
+    color: #fff;
+    padding: 1em;
     padding-left: 1.5em;
     padding-right: 1.5em;
     margin: 0;
@@ -79,7 +83,6 @@ ul li {
 .job-main h3 {
     color: #fff;
 }
-
 
 .job-description {
     display: none;
@@ -94,7 +97,7 @@ ul li {
 }
 
 .job-description h3 {
-    margin:0;
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -114,7 +117,7 @@ ul li {
 }
 
 button#job-apply-button {
-    color:white;
+    color: white;
 }
 
 .job-position {
@@ -135,6 +138,6 @@ button#job-apply-button {
 
 @media only screen and (max-width: 766px) {
     .job-box .adjust-width {
-        width:100%;
+        width: 100%;
     }
 }

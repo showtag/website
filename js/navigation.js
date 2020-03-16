@@ -1,12 +1,13 @@
 //Header
 $(window).scroll(function() {
-
-    if ($(window).scrollTop() > 10) {
+    if ($(window).scrollTop() > 5) {
         $('.main-header').addClass('sticky');
     } else {
         $('.main-header').removeClass('sticky');
     }
 });
+
+
 
 // Navigation
 $('.mobile-toggle').click(function() {

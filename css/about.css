@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-
 /* Skipping the header*/
+
 .content-wrapper {
-    top:10%;
+    top: 10%;
     font-family: 'Open Sans', sans-serif;
 }
- body {
-    font-family: 'Open Sans', sans-serif;  
- }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 p#history {
     text-align: left;
@@ -21,7 +22,7 @@ p#history {
 }
 
 .team-content {
-    width:70%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
 }
@@ -30,9 +31,10 @@ p#history {
     color: #fff;
 }
 
-.team h3, .team h4{
+.team h3,
+.team h4 {
     color: white;
-    margin:0;
+    margin: 0;
 }
 
 .adjust-width {
@@ -45,12 +47,13 @@ p#history {
 
 .person img {
     border-radius: 50%;
-    width:60%;
+    width: 60%;
     margin: 0 0 10px 0;
 }
 
 .grayscale {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
@@ -65,8 +68,7 @@ p#history {
     margin: 0;
 }
 
-.position h2
- {
+.position h2 {
     text-transform: uppercase;
     color: #344853;
     font-weight: 100;
@@ -81,7 +83,7 @@ p#history {
 #position-description p {
     margin: 0 auto;
     text-align: left;
-    width:100%;
+    width: 100%;
 }
 
 #position-description ul {
@@ -99,4 +101,4 @@ p span {
 
 ul li {
     list-style-type: circle;
-  }
+}

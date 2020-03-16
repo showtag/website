@@ -90,6 +90,13 @@ ul li {
     text-align: right;
 }
 
+#cv-button {
+    color: black;
+}
+
+#cv-button:hover {
+    color: white;
+}
 
 @media only screen and (max-width: 766px) {
     .adjust-width {

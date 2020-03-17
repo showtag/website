@@ -179,6 +179,14 @@
         background: white;
     }
     
+    .content-wrapper#main {
+        top: 87%;
+    }
+    
+    .content-wrapper {
+        top: 15%;
+    }
+    
     .content {
         padding: 1em 1em 3em 0em;
     }

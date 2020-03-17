@@ -33,13 +33,16 @@
     }
     
     p {
-        width: 70%;
-        margin: 0 auto;
+        padding: 15px;
     }
     
     .adjust-width {
         width: 70%;
         margin: 0 auto;
+    }
+    
+    #adjust-width {
+        width: 70%;
     }
     
     .pure-img-responsive {
@@ -143,7 +146,7 @@
     }
     
     .splash {
-        width: 80%;
+        width: 100%;
         height: 50%;
         margin: auto;
         position: absolute;
@@ -427,6 +430,7 @@
     .contact-us-form p {
         margin: 0;
         margin-bottom: 20px;
+        padding: 0;
     }
     
     #subscribe {
@@ -584,6 +588,9 @@
         }
         .contact-us-form {
             margin: 0 0 0 10px;
+        }
+        .adjust-width {
+            width: 100%;
         }
     }
     /*

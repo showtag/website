@@ -1,0 +1,27 @@
+.content-wrapper {
+    top: 15%;
+}
+
+.how-works {
+    color: #fff;
+}
+
+.how-works:nth-child(odd) {
+    background-color: #fff;
+    color: #000;
+}
+
+.empty-box {
+    background-color: firebrick;
+    width: 450px;
+    height: 300px;
+}
+
+.feature-text h2 {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.feature-text h2#black {
+    color: #374753;
+}

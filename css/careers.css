@@ -107,7 +107,11 @@ ul li {
 .job-desc-general,
 .job-requirements,
 .apply-button {
-    padding: 5px;
+    padding-right: 15px;
+}
+
+.job-desc-general p {
+    margin: 10px;
 }
 
 .apply-button {

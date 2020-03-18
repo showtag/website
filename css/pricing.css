@@ -25,7 +25,7 @@ article {
     color: #999
 }
 
-ul {
+ul#pricing {
     display: flex;
     top: 0px;
     z-index: 10;
@@ -37,7 +37,7 @@ li {
     flex: 1;
 }
 
-li:last-child {
+ul#pricing li:last-child {
     border-right: 1px solid #DDD;
 }
 
@@ -119,7 +119,7 @@ td.default {
 }
 
 @media (min-width: 640px) {
-    ul {
+    ul#pricing {
         display: none;
     }
     td,
@@ -133,6 +133,10 @@ td.default {
     td+td,
     th+th {
         width: auto;
+    }
+    .bg-orange,
+    .bg-blue {
+        padding: 0;
     }
 }
 
@@ -169,6 +173,14 @@ td.default {
 @media (min-width: 481px) and (max-width: 767px) {
     .adjust-width {
         width: 100%;
+    }
+    .txt-l {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .th .bg-orange,
+    .th .bg-blue {
+        font-size: 12px;
     }
 }
 

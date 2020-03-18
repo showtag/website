@@ -1,11 +1,11 @@
 // DIRTY Responsive pricing table JS
 
-$("ul").on("click", "li", function() {
+$("#pricing").on("click", "pricing-li", function() {
     var pos = $(this).index() + 2;
     $("tr").find('td:not(:eq(0))').hide();
     $('td:nth-child(' + pos + ')').css('display', 'table-cell');
     $("tr").find('th:not(:eq(0))').hide();
-    $('li').removeClass('active');
+    $('pricing-li').removeClass('active');
     $(this).addClass('active');
 });
 

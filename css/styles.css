@@ -172,6 +172,7 @@
     }
     
     .content-wrapper {
+        width: 100%;
         position: absolute;
         top: 87%;
         min-height: 12%;

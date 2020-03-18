@@ -7,7 +7,14 @@ $(window).scroll(function() {
     }
 });
 
-
+$(document).mousemove(function(event) {
+    var currentMousePos = { x: -1, y: -1 };
+    currentMousePos.x = event.clientX;
+    currentMousePos.y = event.clientY;
+    if (currentMousePos.y < 100) {
+        $('.main-header').addClass('sticky');
+    }
+});
 
 // Navigation
 $('.mobile-toggle').click(function() {

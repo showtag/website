@@ -1,0 +1,22 @@
+.content-wrapper {
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.question {
+    padding-left: 10px;
+}
+
+.answer {
+    padding-left: 10px;
+}
+
+.question-arrow {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.answer-box {
+    display: none;
+}

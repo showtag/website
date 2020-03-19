@@ -32,6 +32,12 @@
         color: #34495e;
     }
     
+    .banner {
+        width: 100%;
+        height: 100px;
+        background-color: firebrick;
+    }
+    
     p {
         padding: 15px;
     }

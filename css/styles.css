@@ -549,6 +549,10 @@
         min-width: 30px;
         width: 40px;
     }
+    
+    .footer-opacity {
+        opacity: 0.5;
+    }
     /*Cookie Consent*/
     
     #cookieConsent {

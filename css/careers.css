@@ -1,146 +1,150 @@
-.careers-banner {
-    background-color: tan;
-    width: 100%;
-    margin: 0 auto;
-}
-
-
-/* Skipping the header*/
-
-.content-wrapper {
-    position: absolute;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.position {
-    margin: 0 auto;
-    margin-bottom: 3em;
-}
-
-.job-location {
-    text-align: left;
-}
-
-#position-description {
-    padding: 0;
-    margin: 0;
-}
-
-.position h2 {
-    text-transform: uppercase;
-    color: #344853;
-    font-weight: 100;
-    padding: 0;
-    margin: 0;
-}
-
-.position h3 {
-    text-align: left;
-}
-
-#position-description p {
-    margin: 0 auto;
-    text-align: left;
-    width: 100%;
-}
-
-#position-description ul {
-    text-align: left;
-}
-
-p span {
-    display: block;
-}
-
-#hire-button {
-    margin-top: 1em;
-    color: #fff;
-}
-
-ul li {
-    list-style-type: circle;
-}
-
-#apply-now-button {
-    margin-top: 1em;
-}
-
-.jobs {
-    margin: 0 auto;
-}
-
-.job-main {
-    background-color: #344853;
-    color: #fff;
-    padding: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    margin: 0;
-}
-
-.job-main h3 {
-    color: #fff;
-}
-
-.job-description {
-    display: none;
-    padding: 10px;
-    text-align: left;
-    padding-top: 15px;
-}
-
-.job-description p {
-    margin: 0;
-    padding: 0;
-}
-
-.job-description h3 {
-    margin: 0;
-    margin-bottom: 10px;
-}
-
-.job-description h3:last-of-type {
-    margin-top: 10px;
-}
-
-.job-desc-general,
-.job-requirements,
-.apply-button {
-    padding-right: 15px;
-}
-
-.job-desc-general p {
-    margin: 10px;
-}
-
-.apply-button {
-    text-align: center;
-    margin: 10px 0 20px 0;
-}
-
-button#job-apply-button {
-    color: white;
-}
-
-.job-position {
-    text-align: left;
-}
-
-.job-arrow {
-    text-align: right;
-}
-
-#cv-button {
-    color: black;
-}
-
-#cv-button:hover {
-    color: white;
-}
-
-@media only screen and (max-width: 766px) {
-    .job-box .adjust-width {
+    /******************************************
+    /               Guidelines
+    /  Colors
+    /   Showtag orange: #c2672e
+    /   Showtag orange secondary: #d5824e
+    /   Showtag blue: #24495e
+    /   Showtag gray: #272727
+    /  Fonts
+    /   Open Sans
+    /   Raleway
+    /  Width: 70%
+    /*****************************************/
+    
+    .careers-banner {
+        background-color: tan;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .position {
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+    
+    .job-location {
+        text-align: left;
+    }
+    
+    #position-description {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .position h2 {
+        text-transform: uppercase;
+        color: #344853;
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .position h3 {
+        text-align: left;
+    }
+    
+    #position-description p {
+        margin: 0 auto;
+        text-align: left;
         width: 100%;
     }
-}
+    
+    #position-description ul {
+        text-align: left;
+    }
+    
+    p span {
+        display: block;
+    }
+    
+    #hire-button {
+        margin-top: 1em;
+        color: white;
+    }
+    
+    ul li {
+        list-style-type: circle;
+    }
+    
+    #apply-now-button {
+        margin-top: 1em;
+    }
+    
+    .jobs {
+        margin: 0 auto;
+    }
+    
+    .job-main {
+        background-color: #344853;
+        color: white;
+        padding: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin: 0;
+    }
+    
+    .job-main h3 {
+        color: white;
+    }
+    
+    .job-description {
+        display: none;
+        padding: 10px;
+        text-align: left;
+        padding-top: 15px;
+    }
+    
+    .job-description p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .job-description h3 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .job-description h3:last-of-type {
+        margin-top: 10px;
+    }
+    
+    .job-desc-general,
+    .job-requirements,
+    .apply-button {
+        padding-right: 15px;
+    }
+    
+    .job-desc-general p {
+        margin: 10px;
+    }
+    
+    .apply-button {
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+    
+    button#job-apply-button {
+        color: white;
+    }
+    
+    .job-position {
+        text-align: left;
+    }
+    
+    .job-arrow {
+        text-align: right;
+    }
+    
+    #cv-button {
+        color: black;
+    }
+    
+    #cv-button:hover {
+        color: white;
+    }
+    
+    @media only screen and (max-width: 766px) {
+        .job-box .adjust-width {
+            width: 100%;
+        }
+    }

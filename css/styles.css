@@ -1,3 +1,16 @@
+    /******************************************
+    /               Guidelines
+    /  Colors
+    /   Showtag orange: #c2672e
+    /   Showtag orange secondary: #d5824e
+    /   Showtag blue: #24495e
+    /   Showtag gray: #272727
+    /  Fonts
+    /   Open Sans
+    /   Raleway
+    /  Width: 70%
+    /*****************************************/
+    
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
     * {
@@ -180,7 +193,7 @@
     .content-wrapper {
         width: 100%;
         position: absolute;
-        top: 87%;
+        top: 15%;
         min-height: 12%;
         z-index: 2;
         background: white;

@@ -1,28 +1,35 @@
-.product-features {
-    color: #000
-}
-
-.product-features:nth-child(odd) {
-    background-color: #fff;
-    color: #000;
-}
-
-.product-features:nth-child(even) {
-    background-color: #fff;
-}
-
-.empty-box {
-    background-color: firebrick;
-    width: 450px;
-    height: 300px;
-}
-
-.product-feature-text h2 {
-    padding-left: 15px;
-}
-
-
-/*
-.product-features:nth-child(odd) h2 {
-    color: #374753;
-}*/
+    /******************************************
+    /               Guidelines
+    /  Colors
+    /   Showtag orange: #c2672e
+    /   Showtag orange secondary: #d5824e
+    /   Showtag blue: #24495e
+    /   Showtag gray: #272727
+    /  Fonts
+    /   Open Sans
+    /   Raleway
+    /  Width: 70%
+    /*****************************************/
+    
+    .product-features {
+        color: black
+    }
+    
+    .product-features:nth-child(odd) {
+        background-color: white;
+        color: black;
+    }
+    
+    .product-features:nth-child(even) {
+        background-color: white;
+    }
+    
+    .empty-box {
+        background-color: firebrick;
+        width: 450px;
+        height: 300px;
+    }
+    
+    .product-feature-text h2 {
+        padding-left: 15px;
+    }

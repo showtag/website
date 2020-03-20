@@ -1,214 +1,215 @@
-article {
-    width: 100%;
-    margin: 0 auto;
-    height: 700px;
-    position: relative;
-}
-
-.pricing-button {
-    width: 100%;
-    border: 1px solid #DDD;
-    border-right: 0;
-    border-top: 0;
-    padding: 10px;
-    background: #FFF;
-    font-size: 14px;
-    font-weight: bold;
-    height: 60px;
-    color: #999
-}
-
-ul#pricing {
-    display: flex;
-    top: 0px;
-    z-index: 10;
-    padding-bottom: 14px;
-}
-
-li {
-    list-style: none;
-    flex: 1;
-}
-
-ul#pricing li:last-child {
-    border-right: 1px solid #DDD;
-}
-
-li.active button {
-    background: #F5F5F5;
-    color: #000;
-}
-
-table {
-    border-collapse: collapse;
-    table-layout: fixed;
-    width: 100%;
-}
-
-th {
-    background: #F5F5F5;
-    display: none;
-}
-
-td,
-th {
-    height: 53px
-}
-
-td,
-th {
-    border: 1px solid #DDD;
-    padding: 10px;
-    empty-cells: show;
-}
-
-td,
-th {
-    text-align: left;
-}
-
-td+td,
-th+th {
-    text-align: center;
-    display: none;
-}
-
-td.default {
-    display: table-cell;
-}
-
-.bg-orange {
-    border-top: 3px solid #c2672e;
-}
-
-.bg-blue {
-    border-top: 3px solid #344853;
-}
-
-.sep {
-    background: #F5F5F5;
-    font-weight: bold;
-}
-
-.txt-l {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.txt-top {
-    position: relative;
-    top: -9px;
-    left: -2px;
-}
-
-.tick {
-    font-size: 18px;
-    color: #c2672e;
-}
-
-.hide {
-    border: 0;
-    background: none;
-}
-
-@media (min-width: 640px) {
+    /******************************************
+    /               Guidelines
+    /  Colors
+    /   Showtag orange: #c2672e
+    /   Showtag orange secondary: #d5824e
+    /   Showtag blue: #24495e
+    /   Showtag gray: #272727
+    /  Fonts
+    /   Open Sans
+    /   Raleway
+    /  Width: 70%
+    /*****************************************/
+    
+    article {
+        width: 100%;
+        margin: 0 auto;
+        height: 700px;
+        position: relative;
+    }
+    
+    .pricing-button {
+        width: 100%;
+        border: 1px solid #DDD;
+        border-right: 0;
+        border-top: 0;
+        padding: 10px;
+        background: #FFF;
+        font-size: 14px;
+        font-weight: bold;
+        height: 60px;
+        color: #999
+    }
+    
     ul#pricing {
+        display: flex;
+        top: 0px;
+        z-index: 10;
+        padding-bottom: 14px;
+    }
+    
+    li {
+        list-style: none;
+        flex: 1;
+    }
+    
+    ul#pricing li:last-child {
+        border-right: 1px solid #DDD;
+    }
+    
+    li.active button {
+        background: #F5F5F5;
+        color: #000;
+    }
+    
+    table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 100%;
+    }
+    
+    th {
+        background: #F5F5F5;
         display: none;
     }
+    
     td,
     th {
-        display: table-cell !important;
+        height: 53px
     }
+    
     td,
     th {
-        width: 330px;
+        border: 1px solid #DDD;
+        padding: 10px;
+        empty-cells: show;
     }
+    
+    td,
+    th {
+        text-align: left;
+    }
+    
     td+td,
     th+th {
-        width: auto;
+        text-align: center;
+        display: none;
     }
-    .bg-orange,
+    
+    td.default {
+        display: table-cell;
+    }
+    
+    .bg-orange {
+        border-top: 3px solid #c2672e;
+    }
+    
     .bg-blue {
-        padding: 0;
+        border-top: 3px solid #344853;
     }
-}
-
-
-/* 
+    
+    .sep {
+        background: #F5F5F5;
+        font-weight: bold;
+    }
+    
+    .txt-l {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .txt-top {
+        position: relative;
+        top: -9px;
+        left: -2px;
+    }
+    
+    .tick {
+        font-size: 18px;
+        color: #c2672e;
+    }
+    
+    .hide {
+        border: 0;
+        background: none;
+    }
+    
+    @media (min-width: 640px) {
+        ul#pricing {
+            display: none;
+        }
+        td,
+        th {
+            display: table-cell !important;
+        }
+        td,
+        th {
+            width: 330px;
+        }
+        td+td,
+        th+th {
+            width: auto;
+        }
+        .bg-orange,
+        .bg-blue {
+            padding: 0;
+        }
+    }
+    /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .adjust-width {
-        width: 100%;
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .adjust-width {
+            width: 100%;
+        }
     }
-}
-
-
-/* 
+    /* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .adjust-width {
-        width: 100%;
+    
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .adjust-width {
+            width: 100%;
+        }
     }
-}
-
-
-/* 
+    /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-
-@media (min-width: 481px) and (max-width: 767px) {
-    .adjust-width {
-        width: 100%;
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .adjust-width {
+            width: 100%;
+        }
+        .txt-l {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .th .bg-orange,
+        .th .bg-blue {
+            font-size: 12px;
+        }
     }
-    .txt-l {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .th .bg-orange,
-    .th .bg-blue {
-        font-size: 12px;
-    }
-}
-
-
-/* 
+    /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .adjust-width {
-        width: 100%;
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        .adjust-width {
+            width: 100%;
+        }
     }
-}
-
-
-/* 
+    /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-    .adjust-width {
-        width: 70%;
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+        .adjust-width {
+            width: 70%;
+        }
     }
-}
-
-
-/* 
+    /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-
-@media only screen and (min-width: 1281px) {
-    .adjust-width {
-        width: 70%;
+    
+    @media only screen and (min-width: 1281px) {
+        .adjust-width {
+            width: 70%;
+        }
     }
-}

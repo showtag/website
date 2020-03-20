@@ -35,6 +35,10 @@
         font-family: 'Open Sans', sans-serif;
     }
     
+    h1 .splash-head {
+        font-size: 2em;
+    }
+    
     h1,
     h2,
     h3,
@@ -155,6 +159,8 @@
     .splash-container {
         color: black;
         background: #272727;
+        background-image: url('../img/landing-banner-transparent.png');
+        background-size: cover;
         z-index: 1;
         overflow: hidden;
         width: 100%;
@@ -177,7 +183,7 @@
     }
     
     .splash-head {
-        font-size: 20px;
+        font-size: 2em;
         font-weight: bold;
         color: white;
         line-height: 1em;
@@ -681,6 +687,9 @@
     @media (min-width: 78em) {
         .splash-head {
             font-size: 200%;
+        }
+        h1.splash-head {
+            font-size: 250%;
         }
         content-head {
             font-size: 100%;

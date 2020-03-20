@@ -66,6 +66,10 @@
         list-style-type: circle;
     }
     
+    ul#info-careers li {
+        list-style-type: none;
+    }
+    
     #apply-now-button {
         margin-top: 1em;
     }

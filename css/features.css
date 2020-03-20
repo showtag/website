@@ -33,3 +33,11 @@
     .product-feature-text h2 {
         padding-left: 15px;
     }
+    
+    .product-feature-img {
+        max-width: 400px;
+    }
+    
+    .product-feature-img img {
+        max-width: 100%;
+    }

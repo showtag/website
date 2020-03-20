@@ -184,7 +184,7 @@
         }
     }
     
-    @-webkit-keyframes bgcolorchange {
+    @-webkit-keyframes bgchange {
         0% {
             background-image: url('../img/landing-banner-transparent.png');
         }

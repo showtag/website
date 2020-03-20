@@ -159,7 +159,7 @@
     .splash-container {
         color: black;
         background: #272727;
-        background-image: url('../img/landing-banner-transparent.png');
+        background-image: url('../img/landing-banner-transparent-02.png');
         background-size: cover;
         z-index: 1;
         overflow: hidden;
@@ -168,6 +168,32 @@
         top: 0;
         left: 0;
         position: fixed !important;
+        -webkit-animation: bgchange 10s infinite;
+        animation: 10s infinite bgchange;
+    }
+    
+    @keyframes bgchange {
+        0% {
+            background-image: url('../img/landing-banner-transparent.png');
+        }
+        50% {
+            background-image: url('../img/landing-banner-transparent-02.png');
+        }
+        100% {
+            background-image: url('../img/landing-banner-transparent.png');
+        }
+    }
+    
+    @-webkit-keyframes bgcolorchange {
+        0% {
+            background-image: url('../img/landing-banner-transparent.png');
+        }
+        50% {
+            background-image: url('../img/landing-banner-transparent-02.png');
+        }
+        100% {
+            background-image: url('../img/landing-banner-transparent.png');
+        }
     }
     
     .splash {

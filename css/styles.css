@@ -10,7 +10,7 @@
     /   Raleway
     /  Width: 70%
     /*****************************************/
-    
+
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
     * {
@@ -18,13 +18,13 @@
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
-    
+
     body {
         line-height: 1.7em;
         color: black;
         font-size: 12px;
     }
-    
+
     html,
     button,
     input,
@@ -34,11 +34,11 @@
         /* Set your content font stack here: */
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     h1 .splash-head {
         font-size: 2em;
     }
-    
+
     h1,
     h2,
     h3,
@@ -48,60 +48,60 @@
     label {
         color: #34495e;
     }
-    
+
     .banner {
         width: 100%;
         height: 100px;
         background-color: firebrick;
     }
-    
+
     p {
         padding: 15px;
     }
-    
+
     .adjust-width {
         width: 70%;
         margin: 0 auto;
     }
-    
+
     #adjust-width {
         width: 70%;
     }
-    
+
     .pure-img-responsive {
         max-width: 100%;
         height: auto;
     }
-    
+
     .showtag-logo {
         width: 100%;
     }
-    
+
     .l-box {
         padding: 1em;
     }
-    
+
     .l-box-lrg {
         padding: 2em;
         padding-bottom: 3em;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
+
     .l-box-lrg#contact {
         padding: 3em;
         padding-left: 0;
     }
-    
+
     .is-center {
         text-align: center;
     }
-    
+
     .pure-form label {
         margin: 1em 0 0;
         font-weight: bold;
         font-size: 100%;
     }
-    
+
     .pure-form input[type] {
         border: 2px solid #ddd;
         box-shadow: none;
@@ -109,53 +109,53 @@
         width: 100%;
         margin-bottom: 1em;
     }
-    
+
     .pure-button {
         background-color: #c2672e;
         color: white;
         padding: 0.5em 2em;
         border-radius: 5px;
     }
-    
+
     .pure-menu-item {
         padding-right: 20px;
     }
-    
+
     .home-menu {
         padding: 0.5em;
         text-align: center;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
     }
-    
+
     .home-menu {
         background: transparent;
     }
-    
+
     .pure-menu.pure-menu-fixed {
         border-bottom: none;
         z-index: 4;
     }
-    
+
     .home-menu .pure-menu-heading {
         color: white;
         font-size: 120%;
     }
-    
+
     .home-menu .pure-menu-selected a {
         color: white;
     }
-    
+
     .home-menu a {
         color: white;
     }
-    
+
     .home-menu li a:hover,
     .home-menu li a:focus {
         background: #e86c10;
         border: none;
         color: white;
     }
-    
+
     .splash-container {
         color: black;
         background: #272727;
@@ -169,7 +169,7 @@
         left: 0;
         position: fixed !important;
     }
-    
+
     .splash {
         width: 100%;
         height: 50%;
@@ -181,7 +181,7 @@
         right: 0;
         text-align: center;
     }
-    
+
     .splash-head {
         font-size: 2em;
         font-weight: bold;
@@ -189,13 +189,13 @@
         line-height: 1em;
         font-family: 'Raleway', sans-serif;
     }
-    
+
     .splash-subhead {
         color: white;
         letter-spacing: 0.05em;
         opacity: 0.8;
     }
-    
+
     .content-wrapper {
         width: 100%;
         position: absolute;
@@ -204,59 +204,59 @@
         z-index: 2;
         background: white;
     }
-    
+
     .content-wrapper#main {
         top: 87%;
     }
-    
+
     .content-wrapper {
         top: 15%;
     }
-    
+
     .content {
         padding: 1em 1em 3em 0em;
     }
-    
+
     .content-head {
         text-transform: uppercase;
         letter-spacing: 0.1em;
         margin: 2em 0 1em;
         font-size: 1.5em;
     }
-    
+
     .content-head-ribbon {
         color: white;
     }
-    
+
     .content-subhead {
         color: #1f8dd6;
     }
-    
+
     .content-subhead i {
         margin-right: 7px;
     }
-    
+
     .ribbon {
         background: #344853;
         color: #aaa;
     }
-    
+
     .footer {
         background: #344853;
         color: #fff;
     }
-    
+
     .footer a,
     .footer a:active,
     .footer a:visited {
         color: white;
         text-decoration: none;
     }
-    
+
     .footer a:hover {
         text-decoration: underline;
     }
-    
+
     .footer h3,
     .footer h4 {
         color: #fff;
@@ -264,7 +264,7 @@
     /*
     Primary button
     */
-    
+
     .primary-button {
         background: #c2672e;
         border: 2px solid #c2672e;
@@ -274,14 +274,14 @@
     /*
     Secondary button
     */
-    
+
     .secondary-button {
         background: transparent;
         border: 2px solid #c2672e;
         color: black;
         transition-duration: 0.4s;
     }
-    
+
     .secondary-button:hover {
         background: #c2672e;
         color: white;
@@ -289,7 +289,7 @@
     /*************
     Other classes
     **************/
-    
+
     #how-it-works {
         color: black;
         margin: 0 auto;
@@ -298,7 +298,7 @@
         font-family: 'Open Sans', sans-serif;
         margin-bottom: 2%;
     }
-    
+
     #designed-users-in-mind {
         color: black;
         margin: 0 auto;
@@ -307,7 +307,7 @@
         font-family: 'Open Sans', sans-serif;
         margin-bottom: 2%;
     }
-    
+
     .button-how-it-works {
         min-width: 180px;
         width: 5%;
@@ -316,39 +316,39 @@
         padding: 5px;
         margin: 10px;
     }
-    
+
     .button-users-in-mind {
         margin-top: 30px;
     }
-    
+
     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
-    
+
     .what-you-get {
         background-color: #344853;
         color: white;
         text-align: center;
         font-size: 110%;
     }
-    
+
     .what-you-get h2 {
         color: white;
     }
-    
+
     .what-you-get img {
         width: 90%;
     }
-    
+
     .what-you-get ul {
         margin-top: 3%;
     }
     /*
     * Navigation menu styles
     */
-    
+
     .main-header {
         position: fixed;
         top: 0px;
@@ -365,14 +365,14 @@
         padding-bottom: 0px;
         font-family: "Montserrat", sans-serif;
     }
-    
+
     .row {
         width: 70%;
         margin: 0 auto;
         position: relative;
         padding: 0 0 0 10px;
     }
-    
+
     .mobile-toggle {
         display: none;
         cursor: pointer;
@@ -385,23 +385,23 @@
         -moz-transition: all 200ms ease-in;
         transition: all 200ms ease-in;
     }
-    
+
     .open-nav {
         max-height: 800px !important;
     }
-    
+
     .open-nav .mobile-toggle {
         transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
     }
-    
+
     .sticky {
         opacity: 1;
         top: 0px;
         background-color: rgba(5, 7, 6, 0.9);
         color: white;
     }
-    
+
     .logo {
         width: 50px;
         font-size: 25px;
@@ -413,31 +413,31 @@
         line-height: 1;
         margin-bottom: 10px;
     }
-    
+
     nav {
         float: right;
         width: 90%;
     }
-    
+
     nav ul {
         list-style: none;
         overflow: hidden;
         text-align: right;
         float: right;
     }
-    
+
     nav ul li {
         display: inline-block;
         margin-left: 35px;
         line-height: 1.5;
     }
-    
+
     nav ul a {
         color: #fff;
         font-size: 14px;
         text-decoration: none;
     }
-    
+
     .mobile-toggle span {
         width: 30px;
         height: 4px;
@@ -446,65 +446,65 @@
         background: #444343;
         display: block;
     }
-    /* 
+    /*
     Subscribe form
     */
-    
+
     .pure-form input[type] {
         margin-bottom: 0;
         padding: 10px;
     }
-    
+
     .subscribe-form {
         background-color: #374753;
         color: white;
         padding: 3em;
     }
-    
+
     .subscribe-form h2,
     .contact-us-form h2 {
         color: white;
         margin: 0;
         margin-bottom: 0.85em;
     }
-    
+
     .contact-us-form h3 {
         margin: 0;
     }
-    
+
     .contact-us-form p {
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
     }
-    
+
     #subscribe {
         display: flex;
     }
-    
+
     .submit-form {
         height: 40px;
     }
-    
+
     #email {
         flex: 1;
         position: relative;
         height: 100%;
         padding: 10px;
     }
-    
+
     #subscribe-button {
         padding: 0 10px 0 10px;
         position: relative;
     }
-    
+
     img#mailbox {
         min-width: 50px;
         display: block;
         width: 60%;
         margin-top: 2em;
     }
-    
+
     p#newsletter {
         width: 100%;
         margin: 0 0 10px 0;
@@ -513,54 +513,54 @@
     /*
     Contact us form
     */
-    
+
     .contact-us-form {
         position: relative;
     }
-    
+
     .social-networks {
         text-align: right;
     }
-    
+
     .fab {
         color: black;
     }
-    
+
     .social a:active,
     .social a:visited {
         color: black;
         text-decoration: none;
     }
-    
+
     a.social {
         text-decoration: none;
     }
-    
+
     .social {
         margin-left: 5px;
     }
     /*Footer-line*/
-    
+
     .footer-line {
         margin: 0 20px 2em 20px;
     }
-    
+
     .invert {
         filter: invert(1);
     }
-    
+
     #footer-logo {
         position: absolute;
         left: 10px;
         min-width: 30px;
         width: 40px;
     }
-    
+
     .footer-opacity {
         opacity: 0.5;
     }
     /*Cookie Consent*/
-    
+
     #cookieConsent {
         background-color: rgba(20, 20, 20, 0.8);
         min-height: 26px;
@@ -576,12 +576,12 @@
         display: none;
         z-index: 9999;
     }
-    
+
     #cookieConsent a {
         color: #c2672e;
         text-decoration: none;
     }
-    
+
     #closeCookieConsent {
         float: right;
         display: inline-block;
@@ -591,11 +591,11 @@
         margin: -10px 0 5px 0;
         font-weight: bold;
     }
-    
+
     #closeCookieConsent:hover {
         color: #fff;
     }
-    
+
     #cookieConsent a.cookieConsentOK {
         background-color: #c2672e;
         color: #fff;
@@ -606,12 +606,12 @@
         float: right;
         margin: 0 60px 0 10px;
     }
-    
+
     #cookieConsent a.cookieConsentOK:hover {
         background-color: #c2672e;
     }
     /*Cookie Consent Done*/
-    
+
     @media only screen and (max-width: 766px) {
         .main-header {
             padding-top: 25px;
@@ -654,7 +654,7 @@
     /*
  * Tablet and media queries
  */
-    
+
     @media (min-width: 48em) {
         /* Increase the body font size */
         body {
@@ -681,9 +681,9 @@
         }
     }
     /*
- *  DESKTOP (AND UP) MEDIA QUERIES 
+ *  DESKTOP (AND UP) MEDIA QUERIES
  */
-    
+
     @media (min-width: 78em) {
         .splash-head {
             font-size: 200%;

@@ -28,6 +28,11 @@
         color: white;
     }
     
+    .team a {
+        text-decoration: none;
+        color: white;
+    }
+    
     .board {
         background-color: #fff;
         color: #344853;

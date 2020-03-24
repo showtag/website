@@ -70,12 +70,6 @@
         margin: 0 0 10px 0;
     }
     
-    .board .person img {
-        border-radius: 50%;
-        width: 35%;
-        margin: 0 0 10px 0;
-    }
-    
     .person a,
     .person a:active,
     .person a:visited {

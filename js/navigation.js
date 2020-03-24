@@ -1,9 +1,9 @@
 //Header
 $(window).scroll(function() {
     if ($(window).scrollTop() > 5) {
-        $('.main-header').addClass('sticky');
+        $('#main-header').addClass('sticky');
     } else {
-        $('.main-header').removeClass('sticky');
+        $('#main-header').removeClass('sticky');
     }
 });
 

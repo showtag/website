@@ -628,6 +628,15 @@
         width: 40px;
     }
     
+    .mail-icon {
+        text-align: center;
+    }
+    
+    .offices,
+    .company {
+        padding: 0 10px 0 10px;
+    }
+    
     .footer-opacity {
         opacity: 0.5;
     }
@@ -762,6 +771,9 @@
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         .row {
             width: 90%;
+        }
+        .adjust-width {
+            width: 100%;
         }
     }
     /*

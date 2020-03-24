@@ -28,7 +28,13 @@
         color: white;
     }
     
-    .team-content {
+    .board {
+        background-color: #fff;
+        color: #344853;
+    }
+    
+    .team-content,
+    .board-content {
         width: 70%;
         text-align: center;
         margin: 0 auto;
@@ -36,6 +42,16 @@
     
     .team h2 {
         color: white;
+    }
+    
+    .board h2 {
+        color: #344853;
+    }
+    
+    .board h3,
+    .board h4 {
+        color: #344853;
+        margin: 0;
     }
     
     .team h3,
@@ -52,6 +68,18 @@
         border-radius: 50%;
         width: 60%;
         margin: 0 0 10px 0;
+    }
+    
+    .board .person img {
+        border-radius: 50%;
+        width: 35%;
+        margin: 0 0 10px 0;
+    }
+    
+    .person a,
+    .person a:active,
+    .person a:visited {
+        color: #fff;
     }
     
     .grayscale {
@@ -101,4 +129,15 @@
         margin-top: 2.5em;
         color: white;
         margin-bottom: 2em;
+    }
+    
+    .footer {
+        text-align: left;
+    }
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .team-content,
+        .board-content {
+            width: 90%;
+        }
     }

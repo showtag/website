@@ -67,7 +67,7 @@
                         <a href="about.html" class="main-links">About us</a>
                     </li>
                     <li class="pure-menu-item">
-                        <a href="showtagenabled.com" class="pure-button primary-button">Log in</a>
+                        <input type="button" onclick="openLogin()" class="pure-button primary-button" id="login" value="Log in" />
                     </li>
                 </ul>
             </nav>
@@ -75,7 +75,17 @@
         </div>
 
     </header>
+    <div class="login-form" id="login-form" style="display:none">
+        <div class="pure-g">
+            <div class="pure-u-1-1 pure-u-md-1-2 pure-u-lg-1-2" id="login-f">
+                <div class="close-login"><span onclick="closeLogin()"><i class="fas fa-window-close fa-2x"></i></span></div>
+                <div class="login-form-here">
+                    Log in form
+                </div>
+            </div>
+        </div>
 
+    </div>
     <div class="content-wrapper">
         <div class="content is-center">
             <div class="pure-g">
@@ -326,6 +336,7 @@
     <script src="js/faq.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/cookies.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>

@@ -36,7 +36,7 @@
     }
     
     h1 .splash-head {
-        font-size: 2em;
+        font-size: 12px;
     }
     
     h1,
@@ -122,13 +122,49 @@
     }
     
     .pure-menu-item {
-        padding-right: 20px;
+        padding-right: 10px;
     }
     
     .home-menu {
         padding: 0.5em;
         text-align: center;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+    }
+    
+    .login-form {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        height: 50%;
+        padding: 20px;
+        background: transparent;
+        color: white;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    #login-form {
+        display: none;
+    }
+    
+    #login-f {
+        color: #fff;
+        background: #24495e;
+        width: 70%;
+        min-height: 500px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .close-login {
+        text-align: right;
+        width: 100%;
+    }
+    
+    .fa-window-close:hover {
+        color: #c2672e;
     }
     
     .home-menu {
@@ -406,7 +442,7 @@
         width: 70%;
         margin: 0 auto;
         position: relative;
-        padding: 0 0 0 10px;
+        padding: 0 0 0 5px;
     }
     
     .mobile-toggle {
@@ -686,6 +722,9 @@
         .adjust-width {
             width: 100%;
         }
+        .login-form {
+            width: 100%;
+        }
     }
     /*
  * Tablet and media queries
@@ -714,6 +753,9 @@
         /* We remove the border-separator assigned to .l-box-lrg */
         .l-box-lrg {
             border: none;
+        }
+        .login-form {
+            width: 90%;
         }
     }
     /*

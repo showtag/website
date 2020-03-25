@@ -10,14 +10,10 @@ $(function() {
     setInterval(function() {
         count++;
         var img;
-        console.log("count", count);
-        console.log(wordsArray.length);
         c = count % wordsArray.length;
         $("#roles").fadeOut(2000, function() {
-            console.log(c);
             $(this).text(wordsArray[c]).fadeIn(2000);
             img = "'" + imagesArray[c] + "'";
-            console.log(img);
             $('.splash-container').css({ backgroundImage: 'url(' + img + ')' }).fadeIn(2000);
             //$('.splash-container').css({ backgroundImage: 'url(' + img + ')' }).fadeIn(2000);
         });

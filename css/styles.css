@@ -571,11 +571,20 @@
         height: 40px;
     }
     
-    #email {
+    #fieldEmail {
         flex: 1;
         position: relative;
         height: 100%;
         padding: 10px;
+        color: black;
+    }
+    
+    input#email {
+        color: black;
+    }
+    
+    .js-cm-form {
+        display: inline-block;
     }
     
     #subscribe-button {

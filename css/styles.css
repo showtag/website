@@ -199,7 +199,6 @@
     .splash-container {
         color: black;
         background: #272727;
-        background-image: url('../img/landing-banner-transparent-02.png');
         background-size: cover;
         z-index: 1;
         overflow: hidden;
@@ -208,11 +207,25 @@
         top: 0;
         left: 0;
         position: fixed !important;
-        -webkit-animation: bgchange 15s infinite;
-        animation: 15s infinite bgchange;
+        background-image: url('../img/slides/enterprise.png');
     }
     
-    @keyframes bgchange {
+    .splash-container:after {
+        content: " ";
+        z-index: 2;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .splash {
+        z-index: 3;
+    }
+    /*@keyframes bgchange {
         0% {
             background-image: url('../img/landing-banner-transparent.png');
         }
@@ -240,7 +253,7 @@
         100% {
             background-image: url('../img/landing-banner-transparent.png');
         }
-    }
+    }*/
     
     .splash {
         width: 100%;

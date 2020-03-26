@@ -34,3 +34,11 @@
     .feature-text h2#black {
         color: #374753;
     }
+    
+    .feature-img {
+        max-width: 400px;
+    }
+    
+    .feature-img img {
+        max-width: 100%;
+    }

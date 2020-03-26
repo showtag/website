@@ -167,11 +167,8 @@
                             <form class="pure-form pure-form-stacked">
                                 <div class="submit-form" id="subscribe">
                                     <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619B7C5D125D4F1D16349F1F7812BED5501E31980EF7A9BA0DA463F4F9EE8A4385D39904C405CCDB9D6D6B8CFEFCE9AC271">
-
-                                        <input placeholder="Enter your email.." type="email" autocomplete="Email" id="email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-whktlr-whktlr" required="" type="email">
-                                        <button type="submit" class="primary-button" id="subscribe-button">Subscribe</button>
-                                    </form>
-
+                                        <input id="emailField" autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-whktlr-whktlr" required="" type="email">
+                                        <button type="submit" class="primary-button" id="subscribe-button">Subscribe</button></form>
                                     <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
                                 </div>
                             </form>
@@ -245,6 +242,23 @@
     <script src="js/navigation.js"></script>
     <script src="js/cookies.js"></script>
     <script src="js/login.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#subForm').submit(function(e) {
+                e.preventDefault();
+                $.getJSON(
+                    this.action + "?callback=?",
+                    $(this).serialize(),
+                    function(data) {
+                        if (data.Status === 400) {
+                            alert("Error: " + data.Message);
+                        } else { // 200
+                            alert("Success: " + data.Message);
+                        }
+                    });
+            });
+        });
+    </script>
 </body>
 
 </html>

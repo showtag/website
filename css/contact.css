@@ -377,15 +377,15 @@
     border-radius: 3px;
     color: rgb(255, 255, 255);
     display: inline-block;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 700;
     line-height: 1;
     outline: 0px;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     transition: background-color 0.1s ease-in 0s, box-shadow 0.1s ease-in 0s;
+    font-size: 14px;
 }
 
 .uEPEU:hover {

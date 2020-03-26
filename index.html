@@ -242,23 +242,6 @@
     <script src="js/navigation.js"></script>
     <script src="js/cookies.js"></script>
     <script src="js/login.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $('#subForm').submit(function(e) {
-                e.preventDefault();
-                $.getJSON(
-                    this.action + "?callback=?",
-                    $(this).serialize(),
-                    function(data) {
-                        if (data.Status === 400) {
-                            alert("Error: " + data.Message);
-                        } else { // 200
-                            alert("Success: " + data.Message);
-                        }
-                    });
-            });
-        });
-    </script>
 </body>
 
 </html>

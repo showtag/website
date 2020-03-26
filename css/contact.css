@@ -1,12 +1,14 @@
-.js-cm-form {
+.contact-us .js-cm-form {
     width: 50%;
     text-align: left;
     padding-bottom: 5em;
+    margin: 0 auto;
 }
 
 #fieldjlhrtdd {
     height: 100px;
     padding: 10px;
+    resize: none;
 }
 
 .content {

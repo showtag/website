@@ -572,8 +572,6 @@
     }
     
     #fieldEmail {
-        flex: 1;
-        position: relative;
         height: 100%;
         padding: 10px;
         color: black;
@@ -583,13 +581,19 @@
         color: black;
     }
     
-    .js-cm-form {
-        display: inline-block;
+    .submit-form .js-cm-form,
+    .submit-form .pure-form-stacked {
+        display: flex;
+        align-items: center;
+        width: 70%;
     }
     
     #subscribe-button {
         padding: 0 10px 0 10px;
         position: relative;
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
     
     img#mailbox {
@@ -714,6 +718,12 @@
         background-color: #c2672e;
     }
     /*Cookie Consent Done*/
+    
+    @media only screen and (max-width: 480px) {
+        .pure-form button[type=submit] {
+            margin: 0em 0 0;
+        }
+    }
     
     @media only screen and (max-width: 766px) {
         .main-header {

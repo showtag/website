@@ -42,3 +42,18 @@
     .feature-img img {
         max-width: 100%;
     }
+    
+    .content-wrapper#how-wrapper {
+        top: 0;
+    }
+    
+    .how-banner {
+        background-image: url('../img/landing-banner-transparent.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    
+    .content#how-content {
+        padding: 0;
+    }

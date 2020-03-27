@@ -1,11 +1,8 @@
 $(function() {
     count = 0;
     c = 0;
-    wordsArray = ["Brands", "Content creators", "Filmmakers", "Brand advocates", "Animators", "Communicators", "Influencers", "Experts", "Hobbyists", "Storytellers", "Enterprises"];
-    imagesArray = ["./img/slides/brands.png", "./img/slides/contentc.png", "./img/slides/filmmakers.png",
-        "./img/slides/brandadvocates.png", "./img/slides/animators.png", "./img/slides/communicators.png", "./img/slides/influencers.png",
-        "./img/slides/experts.png", "./img/slides/hobbyists.png", "./img/slides/storytellers.png", "./img/slides/enterprise.png"
-    ];
+    wordsArray = ["Advertisers", "Content creators", "Advertising agencies", "Influencers", "Storytellers"];
+    imagesArray = ["./img/slides/advertisers-showtag.jpg", "./img/slides/content-creators-showtag.jpg", "./img/slides/advertising-agencies-showtag.png", "./img/slides/influencers-showtag.jpg", "./img/slides/storytellers-showtag.jpg"];
 
     setInterval(function() {
         count++;

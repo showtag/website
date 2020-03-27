@@ -15,6 +15,10 @@
     @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
     /* Skipping the header*/
     
+    .content {
+        padding-bottom: 2em;
+    }
+    
     body {
         font-family: 'Open Sans', sans-serif;
     }
@@ -33,13 +37,15 @@
         color: white;
     }
     
-    .board {
+    .board,
+    .power-advisor {
         background-color: #fff;
         color: #344853;
     }
     
     .team-content,
-    .board-content {
+    .board-content,
+    .power-advisor-content {
         width: 70%;
         text-align: center;
         margin: 0 auto;
@@ -49,12 +55,15 @@
         color: white;
     }
     
-    .board h2 {
+    .board h2,
+    .power-advisor h2 {
         color: #344853;
     }
     
     .board h3,
-    .board h4 {
+    .board h4,
+    .power-advisor h3,
+    h4 {
         color: #344853;
         margin: 0;
     }
@@ -136,7 +145,8 @@
     
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         .team-content,
-        .board-content {
+        .board-content,
+        .power-advisor-content {
             width: 90%;
         }
     }

@@ -17,3 +17,18 @@
         background-color: firebrick;
         padding: 10px;
     }
+    
+    .content-wrapper#demos-wrapper {
+        top: 0;
+    }
+    
+    .demos-banner {
+        background-image: url('../img/landing-banner-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    
+    .content#demos-content {
+        padding: 0;
+    }

@@ -41,3 +41,18 @@
     .product-feature-img img {
         max-width: 100%;
     }
+    
+    .content-wrapper#features-wrapper {
+        top: 0;
+    }
+    
+    .features-banner {
+        background-image: url('../img/landing-banner-03.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    
+    .content#features-content {
+        padding: 0;
+    }

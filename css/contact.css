@@ -3,6 +3,36 @@
     text-align: left;
     padding-bottom: 5em;
     margin: 0 auto;
+    margin-top: 5%;
+}
+
+.contact-us {
+    padding-top: 2%;
+}
+
+.contact-data {
+    width: 50%;
+    margin: 0 auto;
+}
+
+p#contact-us-text {
+    text-align: left;
+    padding: 0;
+}
+
+.content-wrapper#contact-wrapper {
+    top: 0;
+}
+
+.contact-banner {
+    background-image: url('../img/landing-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.content#contact-content {
+    padding: 0;
 }
 
 #fieldjlhrtdd {

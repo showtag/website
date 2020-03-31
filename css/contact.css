@@ -10,12 +10,39 @@
     padding-top: 2%;
 }
 
-.contact-data {
+.contact-data,
+.direct-contact {
     width: 50%;
     margin: 0 auto;
 }
 
+.direct-contact h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.direct-contact {
+    color: white;
+}
+
 p#contact-us-text {
+    text-align: left;
+    padding: 0;
+}
+
+#white-ribbon {
+    background-color: white;
+    color: #24495e;
+}
+
+#white-ribbon h3,
+#white-ribbon h2,
+#white-ribbon p {
+    color: #24495e;
+}
+
+#white-ribbon p,
+#white-ribbon h3 {
     text-align: left;
     padding: 0;
 }

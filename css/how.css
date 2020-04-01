@@ -10,50 +10,50 @@
     /   Raleway
     /  Width: 70%
     /*****************************************/
-    
+
     .how-works {
         color: white;
     }
     
-    .how-works:nth-child(odd) {
+    .how-works:nth-child(even) {
         background-color: white;
         color: black;
     }
-    
+
     .empty-box {
         background-color: firebrick;
         width: 100%;
         height: 250px;
     }
-    
+
     .feature-text h2 {
         padding-left: 15px;
         color: white;
     }
-    
+
     .feature-text h2#black {
         color: #374753;
     }
-    
+
     .feature-img {
         max-width: 400px;
     }
-    
+
     .feature-img img {
         max-width: 100%;
     }
-    
+
     .content-wrapper#how-wrapper {
         top: 0;
     }
-    
+
     .how-banner {
         background-image: url('../img/landing-banner.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
     }
-    
+
     .content#how-content {
         padding: 0;
     }

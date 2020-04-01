@@ -1,8 +1,8 @@
 $(function() {
     count = 0;
     c = 0;
-    wordsArray = ["Advertisers", "Content creators", "Advertising agencies", "Influencers", "Storytellers"];
-    imagesArray = ["./img/slides/advertisers-showtag.jpg", "./img/slides/content-creators-showtag.jpg", "./img/slides/advertising-agencies-showtag.png", "./img/slides/influencers-showtag.jpg", "./img/slides/storytellers-showtag.jpg"];
+    wordsArray = ["Advertisers", "Content creators", "Brands", "Influencers", "Storytellers"];
+    imagesArray = ["./img/slides/advertisers-showtag.jpg", "./img/slides/content-creators-showtag.jpg", "./img/slides/brands.jpg", "./img/slides/influencers-showtag.jpg", "./img/slides/storytellers-showtag.jpg"];
 
     setInterval(function() {
         count++;
